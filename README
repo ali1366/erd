@@ -1,0 +1,17 @@
+
+ERD uses the libRNA.a from the Vienna RNA Package. Thus before compiling
+ERD, you have to configure and install the Vienna RNA Package. You can
+download it at: 
+
+http://www.tbi.univie.ac.at/~ivo/RNA/
+
+
+
+ERD can handle sequence constraints, which can be given in IUPAC
+symbols using the -c option. 
+
+
+
+ERD adapts to the new GCC compiler.
+
+

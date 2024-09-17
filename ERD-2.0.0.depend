@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1394027360 source:/home/ali/Desktop/ERD-2.0.0/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<time.h>
+	<Genetic_Algorithm.h>
+	<utility.h>
+	"utils.h"
+	"loaddata.h"
+	<Split_Structure.h>
+	<sys/timeb.h>
+	<fold.h>
+	<inverse.h>
+	<Generate_Sequence.h>
+
+1381133748 /home/ali/Desktop/ERD-2.0.0/include/Genetic_Algorithm.h
+
+1389980062 /home/ali/Desktop/ERD-2.0.0/include/utility.h
+
+1369636258 /usr/local/include/ViennaRNA/utils.h
+	<config.h>
+	"dmalloc.h"
+
+1349877124 /home/ali/Desktop/ERD-2.0.0/include/loaddata.h
+
+1381561815 /home/ali/Desktop/ERD-2.0.0/include/Split_Structure.h
+
+1369636258 /usr/local/include/ViennaRNA/fold.h
+
+1369636258 /usr/local/include/ViennaRNA/inverse.h
+
+1385966990 /home/ali/Desktop/ERD-2.0.0/include/Generate_Sequence.h
+
+1385967075 source:/home/ali/Desktop/ERD-2.0.0/src/Generate_Sequence.c
+	<Generate_Sequence.h>
+	<utility.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<Split_Structure.h>
+	<utils.h>
+
+1386562480 source:/home/ali/Desktop/ERD-2.0.0/src/Genetic_Algorithm.c
+	<Genetic_Algorithm.h>
+	<utility.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+	"fold_vars.h"
+	"fold.h"
+	<Split_Structure.h>
+	<Generate_Sequence.h>
+	<time.h>
+
+1369636258 /usr/local/include/ViennaRNA/fold_vars.h
+
+1381569159 source:/home/ali/Desktop/ERD-2.0.0/src/Split_Structure.c
+	<Split_Structure.h>
+	<utility.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1360708949 source:/home/ali/Desktop/ERD-2.0.0/src/loaddata.c
+	"loaddata.h"
+	<utility.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1394027484 source:/home/ali/Desktop/ERD-2.0.0/src/utility.c
+	<utility.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/time.h>
+	<part_func.h>
+	<utils.h>
+
+1369636258 /usr/local/include/ViennaRNA/part_func.h
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ERD-2.0.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ERD-2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/ali/Desktop/ERD-2.0.0/include" />
+					<Add directory="/usr/local/include/ViennaRNA" />
+				</Compiler>
+				<Linker>
+					<Add option="-fopnmp" />
+					<Add option="-lRNA" />
+					<Add option="-lm" />
+					<Add library="/usr/local/lib/libRNA.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ERD-2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Generate_Sequence.h" />
+		<Unit filename="include/Genetic_Algorithm.h" />
+		<Unit filename="include/Split_Structure.h" />
+		<Unit filename="include/loaddata.h" />
+		<Unit filename="include/utility.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Generate_Sequence.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Genetic_Algorithm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Split_Structure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/loaddata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
