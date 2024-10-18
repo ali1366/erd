@@ -16,18 +16,18 @@
 #include <math.h>
 #include <string.h>
 #include <time.h>
-#include <Genetic_Algorithm.h>
+#include "include/Genetic_Algorithm.h"
 //#include <test.h>
-#include <utility.h>
-#include "utils.h"
-#include "loaddata.h"
+#include "include/utility.h"
+#include <utils.h>
+#include "include/loaddata.h"
 //#include <sys/time.h>
-#include <Split_Structure.h>
+#include "include/Split_Structure.h"
 #include <sys/timeb.h>
 #include <fold.h>
 //#include <part_func.h>
 #include <inverse.h>
-#include <Generate_Sequence.h>
+#include "include/Generate_Sequence.h"
 
 time_t Global_Time;
 int Result_Flag;
@@ -50,7 +50,7 @@ char *Data_Ml_Array[90];
 int count_Array[3][100];
 ///-----------------------------------------------------------
 
-float temperature;
+double temperature;
 
 int main(int argc, char *argv[])
 {
